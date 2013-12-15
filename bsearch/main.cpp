@@ -22,6 +22,8 @@ void create()
     
     dlist *new1,*temp1,*temp2;
     new1=(dlist *)malloc(sizeof(dlist));
+    cout<<"Creating a new node"<<endl;
+
     cout<<"enter number"<<endl;
     cin>>new1->num;
     new1->l=null;
